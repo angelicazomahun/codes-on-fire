@@ -1,0 +1,80 @@
+body{
+    background-image: url(image/background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* width: 200vw;
+    height: 600px;
+    padding: 0px; */
+} 
+header{
+    display: flex;
+    flex-direction: row;
+background-color: white;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 150px;
+}
+
+
+nav{
+    padding-left: 900px;
+    text-align: right;
+    float: left;
+    padding-top: 10px;
+}
+nav a{
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+nav button{
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+}
+.go{
+    position: relative;
+    left: 600px;
+   top: 200px;
+   line-height: 1m;
+ 
+}
+.go h1{
+    /* padding-top: 20px; */
+    font-size:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -20px;
+}
+p{
+    padding-left: 50px;
+    
+}
+button{
+    border-radius: 20px;
+margin-left: 20px;
+    width: 150px;
+    height: 35px;
+
+}
+.lef{
+    background-color: green;
+    color: white;
+    margin-right: 15px;
+}
+.rig{
+    border: 2px black solid;
+    color: black;
+   font-style: bold;
+}
+
